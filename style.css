@@ -520,17 +520,17 @@ section.sklls .item .progress-bar{
 
 section.sklls .item .progress-bar .progress{
     height: 100%;
-    width: 92%;
+    /* width: 88%; */
     background: var(--color-primary);
 }
 
-section.sklls .item:nth-child(2) .progress-bar .progress{
+/* section.sklls .item:nth-child(1) .progress-bar .progress{
     width: 88%;
 }
 
-section.sklls .item:nth-child(3) .progress-bar .progress{
+section.sklls .item:nth-child(2) .progress-bar .progress{
     width: 80%;
-}
+} */
 
 /* ==================== SERVICES ==================*/
 section.services {
@@ -597,7 +597,7 @@ section.services .container .service i {
 }
 
 section.services .container .service:nth-child(2) i {
-    background: var(--color-warning);
+    background: #3137ff;
 }
 
 /* ===================== RECENT WORK (PORTFOLIO) ====================*/
@@ -957,9 +957,9 @@ footer span a:hover{
          text-align: center;
      }
      /*======================== SKILLS SECTION =====================*/
-     section.skills .container {
-         width: 94%;
-     }
+     section.sklls .container {
+        width: 94%;
+    }
      /*======================== SERVICES SECTION =====================*/
      section.services .container {
          grid-template-columns: 1fr;
