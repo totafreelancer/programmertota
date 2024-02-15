@@ -99,7 +99,6 @@ section h1{
 
 img{
     width: 100%;
-    height: 100%;
 }
 
 .btn{
@@ -194,6 +193,11 @@ nav .container ul li a:hover{
 }
 
 /* ==================== LANDING SECITON ===================*/
+.inner-circle img {
+    width: 100%;
+    height: 100%;
+}
+
 section.landing {
     display: grid;
     place-items: center;
