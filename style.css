@@ -135,14 +135,14 @@ a.btn.btn-primary:hover {
 nav{
     width: 100%;
     height: 5rem;
-    background: #f3f5fb;
+    background: #0b101e;
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
     top: 0;
     z-index: 2;
-    border-bottom: 1px solid var(--color-light);
+    /* border-bottom: 1px solid var(--color-light); */
 }
 
 nav.show-box-shadow {
@@ -159,7 +159,7 @@ nav .container{
 
 .container a img {
     height: 75px;
-    width: 165px;
+    width: 100%;
 }
 
 nav button{
@@ -177,19 +177,23 @@ nav .container ul{
 
 nav .container ul li a{
     height: 100%;
-    width: 6rem;
+    /* width: 6rem; */
+    padding: 0 1rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color-black);
+    color: aliceblue;
     position: relative;
     transition: var(--transition);
+    text-decoration: none;
 }
 
 
 nav .container ul li a:hover{
     background: var(--color-primary);
     color: var(--color-white);
+    text-decoration: underline;
 }
 
 /* ==================== LANDING SECITON ===================*/
@@ -204,7 +208,7 @@ section.landing {
     top: 5rem;
     padding-bottom: 14rem;
     color: aliceblue;
-    background: var(--color-black);
+    background: #0b101e;
 }
 
 section.landing .container {
@@ -328,7 +332,7 @@ section.landing .profile-area .outer-circle i{
     height: 4rem;
     border-radius: 50%;
     position: absolute;
-    background: var(--color-black);
+    background: none;
     color: var(--color-primary);
     display: flex;
     justify-content: center;
@@ -338,21 +342,21 @@ section.landing .profile-area .outer-circle i{
 
 section.landing .profile-area .outer-circle i:nth-child(1){
     left: calc(50% - 2rem);
-    top: -2rem;
+    top: -3rem;
 }
 
 section.landing .profile-area .outer-circle i:nth-child(2){
-    right: -2rem;
+    right: -4rem;
     top: calc(50% - 2rem);
 }
 
 section.landing .profile-area .outer-circle i:nth-child(3){
-   left: -2rem;
+   left: -4rem;
    top: calc(50% - 2rem);
 }
 
 section.landing .profile-area .outer-circle i:nth-child(4){
-    bottom: -2rem;
+    bottom: -3rem;
     left: calc(50% - 2rem);
  }
 
