@@ -639,7 +639,13 @@ section.services .container .service:nth-child(2) i {
 section.recent-work h1 {
     text-align: left;
     margin: 3rem 0 1rem;
-    width: 65%;
+}
+
+section.recent-work h3 {
+    text-align: left;
+    margin: 3rem 0 1rem;
+    color: var(--color-primary);
+    text-transform: uppercase;
 }
 
 section.recent-work .projects {
