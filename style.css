@@ -646,6 +646,7 @@ section.recent-work h3 {
     margin: 3rem 0 1rem;
     color: var(--color-primary);
     text-transform: uppercase;
+    text-align: center;
 }
 
 section.recent-work .projects {
